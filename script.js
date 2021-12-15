@@ -1,34 +1,6 @@
 
 
-$("#show_dropdown_btn").click(function(){
-    let dropdown_div = $("#dropdown_div");
-    if (dropdown_div.css("display") !== "block"){
-        dropdown_div.css({"display": "block"});
-    }else{
-        dropdown_div.css({"display": "none"});
-    }
 
-    $(".choose_item").click(function(){
-        let dropdown_str = String($(this).text());
-
-        for (let i = 0; i < dropdown_str.length; i++){
-            if (dropdown_str.indexOf(" ") != -1){
-                dropdown_str = dropdown_str.replace(" ", "");
-            }
-        }
-        $("#dropdown_inp").val(dropdown_str);
-        dropdown_div.css({"display": "none"});
-    });
-});
-
-
-$("#choose_btn").click(function(){
-    console.log($("#dropdown_inp").val());
-});
-let generate_number = function(){
-    window.random_number  = Number(Math.trunc(Math.random() * 20) + 1);
-    console.log(window.random_number);
-};
 
 
 let rand = window.addEventListener("load", function(){
