@@ -6,8 +6,8 @@ body{
 
 #secret_num_div{
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 20%;
     background-color: white;
 }
@@ -15,7 +15,7 @@ body{
 #secret_num_p{
     text-align: center;
     color: black;
-    padding: 5px;
+    padding: 15px;
     font-size: 80px;
     font-weight: bold;
 }
@@ -74,4 +74,19 @@ body{
 .info_txt{
     font-size: 30px;
     font-weight: bold;
+}
+
+#again_btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#again_div{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
 }
